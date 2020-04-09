@@ -28,7 +28,7 @@ def self.cards_total(cards)
   total #Erroneous variable? meant to be set to something?
   for card in cards
     total += card.value
-    return "You have a total of" + total #Poorly laid concatenation. Probably better to use Interpolation
-  end
+    return "You have a total of" + total #Poorly laid out concatenation. Probably better to use Interpolation. Return should also be outside of loop.
+  end #Missing end for function
 end
 ```
